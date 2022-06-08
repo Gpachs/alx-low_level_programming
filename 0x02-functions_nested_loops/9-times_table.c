@@ -45,7 +45,8 @@ void times_table(void)
 			_putchar ('\n');
 		}
 	}
-}#include "main.h"
+}
+#include "main.h"
 /**
  * times_table -prints tables
  *
