@@ -1,6 +1,5 @@
 #include "hash_tables.h"
 
-
 /**
  * hash_table_create - create hash table given size
  * @size: size
@@ -34,3 +33,4 @@ hash_table_t *hash_table_create(unsigned long int size)
 	ht->array = array;
 
 	return (ht);
+}
